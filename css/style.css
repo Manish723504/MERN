@@ -1,0 +1,10 @@
+body{
+    background-color: burlywood;
+}
+.text{
+    color: red;
+    font-size: italic;
+    text-decoration: underline;
+    font-family: Comic Sans MS;
+    text-align: center;
+}

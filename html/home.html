@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+<style>
+/* element selector */
+a{
+text-decoration: none;
+font-family: 'Lucida Sans';
+
+}
+
+li{
+
+    margin-bottom: 20px;/*outer and wrt each other*/
+    /* padding-top:20px;li ke content ko move kro 10px */
+
+}
+ul{
+
+    padding-top: 20px;/*padding always from inner boundary */
+}
+.box{
+    width:20%;
+    height: 200px;
+    background-color: aquamarine;
+    float: left;
+    border-radius: 20px;
+    border-style: solid;
+    margin: 60px;
+
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+</style>
+
+</head>
+<!-- block elements->it will cover thefull width of the screen 
+ h1-h6
+ p
+ div
+ -->
+<body style="margin:0px">
+<div style="width:100%;height: 60px;background-color: #8a2be2;">
+    <h2 style="color:white;text-align: center;margin: 0px;">
+    Easy Day Portal Welcomes You
+    </h2>
+</div>
+ 
+<div style="width:25%;height: 800px;background-color: rgb(118, 126, 14);float:left">
+<ul style="margin: 0px;list-style-type: none;">
+<li><a href="about_us.html">AboutUs</a></li>
+<li><a href="#">ContactUs</a></li>
+</ul>
+
+<div style="width:100%;height: 300px;background-color:coral;">
+<img src="../images/msdhoni.webp" alt="image loading" style="width:100%;height: 100%;">
+</div>
+
+</div>
+
+<div style="width:75%;height: 800px;background-color: rgb(126, 14, 33);float:left">
+  
+<div class="box">
+     
+    <img src="../images/book.jpg" alt="">
+</div>
+
+<div class="box">
+
+    <img src="../images/msdhoni.webp" alt="">
+</div>
+
+<div class="box" style="clear: both;">
+
+    <img src="../images/owner1.jpg" alt="">
+</div>
+
+</div>
+
+<div style="width:100%;height: 60px;background-color: rgb(14, 102, 126);clear: both">
+
+<h3>Footer Div</h3>
+</div>
+
+
+<!-- <h1 style="background-color: yellow;">Hello block element</h1> -->
+
+</body>
+
+</html>

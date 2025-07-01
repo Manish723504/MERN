@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShowHide</title>
+  <script>
+   function showHostel()
+   {
+    let d= document.getElementById("divHostel")
+    d.style.display="block"
+   }
+   function hideHostel()
+   {
+    let d= document.getElementById("divHostel")
+   d.style.display="none"
+   }
+  </script>
+
+</head>
+<body>
+     <div id="divHostel" style="display: none; background-color: rgb(136, 86, 21);">
+
+      <ul>
+
+      <li>Boy Hostel</li>
+      <li>Girls Hostel</li>
+      <li>Man Hostel</li>
+      <li>Women Hostel</li>
+
+      </ul>
+     </div>
+       <button onclick="showHostel()">ShowHostel</button>
+       <button onclick="hideHostel()">HideHostel</button>
+
+</body>
+</html>

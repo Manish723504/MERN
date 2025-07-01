@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over and Out</title>
+    <script>
+    //  alert("Hello")
+
+    function changePic()
+    {
+       let x= document.getElementById("img2")//it return the html element <img>
+    //    console.log(x)//it will print on brower console
+
+        x.src="../images/naina.jpg" 
+    }
+    function changePic1()
+    {
+       let x= document.getElementById("img2")//it return the html element <img>
+    //    console.log(x)//it will print on brower console
+
+        x.src="../images/srmu1.jpeg"
+    }
+    </script>
+
+
+</head>
+<body>
+
+    <img id="img2" src="../images/srmu1.jpeg" alt="" style="width: 200px;height: 200px;" onmouseover="changePic()" onmouseout="changePic1()">
+
+</body>
+</html>

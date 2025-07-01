@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+
+   function changeSize()
+   {
+     let x= document.getElementById("img1")
+     x.style.width ='200px'
+     x.style.height ='200px'
+       
+   }
+   function changePic1()
+   {
+     let x=document.getElementById("img1")
+     x.style.width ='100px'
+     x.style.height ='100px'
+   }
+
+
+</script>
+
+</head>
+<body>
+    
+     <img id="img1"src="../images/book.jpg" alt="" onmouseover="changeSize()"onmouseout="changePic1()">
+     
+</body>
+</html>
